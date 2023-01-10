@@ -22,7 +22,7 @@ public class Test {
          *    Ioc 基于xml创建对象
          */
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-        System.out.println("根据xml配置：" + context.getBean("dataConfig"));
+        System.out.println("根据xml配置1：" + context.getBean("dataConfig"));
 
         /**
          *    Ioc 基于注解创建对象
